@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Implementation\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopOnlineCore.Data.EF\ShopOnlineCore.Data.EF.csproj" />
+    <ProjectReference Include="..\ShopOnlineCore.Data\ShopOnlineCore.Data.csproj" />
+    <ProjectReference Include="..\ShopOnlineCore.Infrastructure\ShopOnlineCore.Infrastructure.csproj" />
+    <ProjectReference Include="..\ShopOnlineCore.Utilities\ShopOnlineCore.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
